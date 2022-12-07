@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.prueba.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.prueba.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_comisiones"
+        android:name="com.example.prueba.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_comisiones"
+        tools:layout="@layout/fragment_comisiones" />
+    <fragment
+        android:id="@+id/nav_calendario"
+        android:name="com.example.prueba.ui.gallery.GalleryFragment"
+        android:label="@string/menu_calendario"
+        tools:layout="@layout/fragment_calendario" />
+
+    <fragment
+        android:id="@+id/nav_protocolos"
+        android:name="com.example.prueba.ui.gallery.GalleryFragment"
+        android:label="@string/menu_protocolos"
+        tools:layout="@layout/fragment_protocoloseg" />
+
+    <fragment
+        android:id="@+id/nav_afiliaciones"
+        android:name="com.example.prueba.ui.gallery.GalleryFragment"
+        android:label="@string/menu_afiliciones"
+        tools:layout="@layout/fragment_afiliaciones" />
+
+    <fragment
+        android:id="@+id/nav_torneo"
+        android:name="com.example.prueba.ui.gallery.GalleryFragment"
+        android:label="@string/menu_torneos"
+        tools:layout="@layout/fragment_torneos" />
+
+    <fragment
+        android:id="@+id/nav_arbitraje"
+        android:name="com.example.prueba.ui.gallery.GalleryFragment"
+        android:label="@string/menu_arbitraje"
+        tools:layout="@layout/fragment_arbitraje" />
+
+    <fragment
+        android:id="@+id/nav_rating"
+        android:name="com.example.prueba.ui.gallery.GalleryFragment"
+        android:label="@string/menu_rating"
+        tools:layout="@layout/fragment_raiting" />
+</navigation>
